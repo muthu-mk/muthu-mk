@@ -25,7 +25,7 @@ int main(){
    
     for(i=0;i<n;i++)
         {
-       printf("%d ",ar[i]);
+      // printf("%d ",ar[i]);
     }
    
     for( i=0,j=1;i<n-2,j<=n-2;i=i+2,j=j+2)
@@ -39,6 +39,7 @@ int main(){
             printf("unique value is:%d",ar[i]);
             c=-1;
             i=n+5;
+            j=n+5;
           }
     }
     if(c!=-1)
